@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Chamando Fonte */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    
+    /* Bordas View */
+    border: solid 1px #000000;
+}
+
+/* Layout APP */
+.container-pai {
+    width: 200px;
+    height: 200px;
+
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurações dos Botões */
+.container-button {
+    width: 160px;
+    padding: 5px ;
+    /* gap: 2px; */
+
+    /* FlexBox */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    cursor: pointer;
+    /* width: 77px; */
+    padding: 3px;
+    border-radius: 3px;
+
+}
+
+/* Desafio */
+
+/* Cabeçalho */
+/* Resultado */
+/* Rodapé */
