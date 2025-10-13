@@ -2,48 +2,77 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    /* Chamando Fonte */
     font-family: "Ubuntu", sans-serif;
-    font-size: 0.85rem; /* REM é nosso padrão */
-    
-    /* Bordas View */
-    border: solid 1px #000000;
+    font-size: 0.85rem;
+    color: rgb(5, 0, 0);
 }
 
-/* Layout APP */
 .container-pai {
     width: 200px;
     height: 200px;
-
-    /* Flex */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #333333fd;
+    gap: 5px;
 }
 
-/* Configurações dos Botões */
-.container-button {
+.container-button{
     width: 160px;
-    padding: 5px ;
-    /* gap: 2px; */
-
-    /* FlexBox */
+    padding: 2.5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
-.btn {
+.btn{
+    border-radius: 2px;
+    background-color: #D9D9D9;
     cursor: pointer;
-    /* width: 77px; */
-    padding: 3px;
-    border-radius: 3px;
-
+    padding: 2px;
+    color: black;
 }
 
-/* Desafio */
+.input-text{
+    background-color: #F3F3F3;
+    border-radius: 1px;
+    border: rgb(41, 39, 56);
+    border: 1px solid #333333;
+}
 
-/* Cabeçalho */
-/* Resultado */
+.cabecalho-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 6px;         /* diminui o espaço entre logo e texto */
+    flex-direction: row-reverse;
+    padding: 4px;     /* diminui o espaço abaixo do cabeçalho */
+}
+
+
+.logo{
+    width: 25px;
+    height: auto;
+}
+
 /* Rodapé */
+.rodape{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.link{
+    color: blue;
+}
+
+.result{
+    width: 157.5px;
+    height: 68px;
+    background-color: #F3F3F3;
+    border: 0.5px solid #333333af;
+    padding: 20px;
+    justify-content: start;
+    padding: 5px;
+}
