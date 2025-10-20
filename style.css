@@ -7,6 +7,8 @@
     color: rgb(5, 0, 0);
 }
 
+
+
 .container-pai {
     width: 200px;
     height: auto;
@@ -44,6 +46,7 @@
     border: rgb(41, 39, 56);
     border: 1px solid #333333;
     margin-top: -8px;
+    height: 25px;
 }
 
 .cabecalho-conteudo {
@@ -88,5 +91,9 @@
 }
 
 #btnMinuscula {
+    width: 75px;
+}
+
+#btnNegrito{
     width: 75px;
 }
