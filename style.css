@@ -9,7 +9,7 @@
 
 .container-pai {
     width: 200px;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,23 +17,25 @@
     background-color: rgb(255, 255, 255);
     border: 2px solid #333333fd;
     gap: 5px;
+    padding: 10px;
 }
 
 .container-button{
     width: 160px;
     padding: 2.5px;
     display: flex;
-    justify-content: space-between;
-    
+    gap: 8px;
+    margin-top: 5px;
+
 }
 
 .btn{
-    border-radius: 2px;
     background-color: #D9D9D9;
     cursor: pointer;
     padding: 2px;
     color: black;
-    /* padding-bottom: 3px; */
+    height: 30px;
+    border: 1px solid;
 }
 
 .input-text{
@@ -42,7 +44,6 @@
     border: rgb(41, 39, 56);
     border: 1px solid #333333;
     margin-top: -8px;
-
 }
 
 .cabecalho-conteudo {
@@ -80,4 +81,12 @@
 }
 .result p {
     color: black;
+}
+
+#btnLimpar{
+    width: 78px;
+}
+
+#btnMinuscula {
+    width: 75px;
 }
