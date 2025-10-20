@@ -40,6 +40,8 @@
     border-radius: 1px;
     border: rgb(41, 39, 56);
     border: 1px solid #333333;
+    margin-top: -8px;
+
 }
 
 .cabecalho-conteudo {
@@ -49,7 +51,6 @@
     flex-direction: row-reverse;
     padding: 4px;     /* diminui o espaço abaixo do cabeçalho */
 }
-
 
 .logo{
     width: 25px;
@@ -75,4 +76,7 @@
     padding: 20px;
     justify-content: start;
     padding: 5px;
+}
+.result p {
+    color: black;
 }
