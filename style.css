@@ -8,7 +8,6 @@
 }
 
 
-
 .container-pai {
     width: 200px;
     height: auto;
@@ -20,15 +19,16 @@
     border: 2px solid #333333fd;
     gap: 5px;
     padding: 10px;
+    
 }
 
-.container-button{
-    width: 160px;
-    padding: 2.5px;
+.container-button {
     display: flex;
-    gap: 8px;
-    margin-top: 0.5px;
-
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 7px; 
+    margin-top: 5px;
+   
 }
 
 .btn{
@@ -38,6 +38,7 @@
     color: black;
     height: 30px;
     border: 1px solid;
+
 }
 
 .input-text{
@@ -45,21 +46,34 @@
     border-radius: 1px;
     border: rgb(41, 39, 56);
     border: 1px solid #333333;
-    margin-top: -8px;
+    margin-top: -7px;
     height: 25px;
 }
 
 .cabecalho-conteudo {
     display: flex;
     align-items: center;
-    gap: 6px;         /* diminui o espaço entre logo e texto */
+    gap: 6px;         
     flex-direction: row-reverse;
-    padding: 4px;     /* diminui o espaço abaixo do cabeçalho */
+    padding: 4px;     
 }
 
 .logo{
     width: 25px;
     height: auto;
+}
+
+.result{
+    width: 157.5px;
+    height: 68px;
+    background-color: #F3F3F3;
+    border: 0.5px solid #333333af;
+    justify-content: start;
+    padding: 5px;
+    margin-top: 5px;
+}
+.result p {
+    color: black;
 }
 
 /* Rodapé */
@@ -73,19 +87,6 @@
     color: blue;
 }
 
-.result{
-    width: 157.5px;
-    height: 68px;
-    background-color: #F3F3F3;
-    border: 0.5px solid #333333af;
-    padding: 20px;
-    justify-content: start;
-    padding: 5px;
-}
-.result p {
-    color: black;
-}
-
 #btnLimpar{
     width: 78px;
 }
@@ -96,4 +97,8 @@
 
 #btnNegrito{
     width: 75px;
+}
+
+#btnPrimeiraLetraMaiuscula {
+    width: 160px;
 }
